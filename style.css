@@ -563,6 +563,38 @@ footer{
 
   .form-item input:first-child{
     margin-right: 0px;
+  }
 }
+
+@media(min-width:768px) and (max-width:1023px){
+    .price-container{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .price-listing{
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .price-listing-items{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-container{
+        width: 100%;
+    }
+    .form-item input{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+  
+    .form-item input:first-child{
+      margin-right: 0px;
+    }
+    .contact-container,.form-item{
+        display: block;
+        width: 100%;
+    }
 }
 
