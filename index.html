@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Recycle | Saving The World</title>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="recycle-logo">
+        <div class="menu-items" id="menu-items" onclick='hideMenu()'>
+            <i class="fa fa-times"></i>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick='showMenu()'></i>
+    </nav>
+
+    <main>
+        <!-- Navigation To The Top -->
+        <div id="nav" onclick="topFunction()"><i class="fa fa-level-up"></i></div>
+        <!-- Hero Section -->
+        <div class="container">
+            <section class="hero">
+                <div class="hero-text">
+                    <h1><span>Save</span> the World without a cape.</h1>
+                    <p>Every year, people all over the world are producing a shocking amount of trash. Want to help reduce it?</p>
+                    <button class="hero-btn">Start Saving</button>
+                </div>
+                <div class="hero-img">
+                    <img src="images/bin.png" alt="">
+                </div>
+            </section>
+        </div>
+
+        <!-- Mission -->
+        <section id="mission" class="mission">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus  assumenda nam dolorum necessitatibus! Vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam!</p>
+                <div class="icon-container">
+                    <div class="icon"><img src="images/bottle.png" alt="">
+                        <p><h2>40,000,000</h2></p>
+                        <p><h3>Bottles</h3></p>
+                    </div>
+                    <div class="icon"><img src="images/paper.png" alt="">
+                        <p><h2>30,000,000</h2></p>
+                        <p><h3>Papers</h3></p>
+                    </div>
+                    <div class="icon"><img src="images/wood.png" alt="">
+                        <p><h2>10,000,000</h2></p>
+                        <p><h3>Wood</h3></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <h2>Our Price List</h2>
+                <p>We have a suitable price list for everyone just to get started with our services.</p>
+                <div class="price-container">
+                    <div class="price-listing">
+                        <h4>BASIC</h4>
+                        <div class="price"><span class="amount">$199</span>/month</div>
+                        <div class="price-listing-items">
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet hegtop.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <p class="strike"><i class="fa fa-close"></i>Lorem ipsum dolor sit.</p>
+                            <p class="strike"><i class="fa fa-close"></i>Lorem ipsum dolor sit.</p>
+                            <p class="strike"><i class="fa fa-close"></i>Lorem ipsum dolor sit.</p>
+                            <button class="price-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="price-listing">
+                        <h4>PRO</h4>
+                        <div class="price"><span class="amount">$399</span>/month</div>
+                        <div class="price-listing-items">
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet hegtop.</p>
+                            <p><i class="fa fa-check"></i>Se dolor sit amet hegtop.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet.</p>
+                            <p class="strike"><i class="fa fa-close"></i>Lorem ipsum dolor sit amet.</p>
+                            <button class="price-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="price-listing">
+                        <h4>ENTERPRISE</h4>
+                        <div class="price"><span class="amount">$899</span>/month</div>
+                        <div class="price-listing-items">
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit amet hegtop.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                            <button class="price-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section class="contact" id="contact">  
+            <h2>Contact Us</h2>
+            <div class="container">
+                <div class="contact-container">
+                    <div class="company">
+                        <h4>Let's get in touch</h4>
+                        <p>We are ready to work with you.</p>
+                        <ul>
+                            <li><i class="fa fa-location-arrow"></i>93 Cherry Drive Fredeny, OH 19804</li>
+                            <li><i class="fa fa-envelope"></i>lorem@ipsum.com</li>
+                            <li><i class="fa fa-phone"></i>123-456-789</li>
+                            <li><i class="fa fa-globe"></i>www.recycle.com</li>
+                        </ul>
+                    </div>
+                    <form action="">
+                        <h4>Email Us</h4>
+                        <div class="form-item">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Company">
+                        </div>
+                        <div class="form-item">
+                            <input type="email" placeholder="Email Address">
+                            <input type="number" placeholder="Phone Number" maxlength="11">
+                        </div>
+                        <textarea id="" rows="6" placeholder="Message"></textarea>
+                        <button class="form-btn">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <ul class="flex-row">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="flex-row">
+                    <li><i class="fa fa-facebook-square"></i></li>
+                    <li><i class="fa fa-twitter-square"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-linkedin-square"></i></li>
+                </ul>   
+                <p>Made By Fexavier &copy; <script>document.write(new Date().getFullYear())</script>.</p>  
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        navLinks = document.getElementById('menu-items');
+
+        function showMenu(){
+            navLinks.style.right = '0';
+        }
+        function hideMenu(){
+            navLinks.style.right = '-55%';
+        }
+
+        //Get the button
+        var mybutton = document.getElementById("nav");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "flex";
+        } else {
+            mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
